@@ -123,8 +123,7 @@ This script loads the stored FAISS database and uses a Ollama cloud model to ans
 ## 📚 LLM Setup
 
 - Model: "gpt-oss:20b-cloud" (or other)
-- EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"`
-- Embeddings: `paraphrase-multilingual-MiniLM-L12-v2`
+- EMBED_MODEL = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"`
 - Retrieval: FAISS + LangChain `langchain_community.vectorstores.FAISS`
 - Interface: Chainlit
 
